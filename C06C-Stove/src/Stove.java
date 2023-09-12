@@ -3,8 +3,8 @@ import java.util.ArrayList;
 /**
  * Stove class. 
  *  
- * @author Mark Baldwin
- * @author Cyndi Rader
+ * @author Calvin Tran
+ * @author Jonathan Nunez Toledo
  * 
  * Purpose: Simulates a stove
  */
@@ -30,7 +30,16 @@ public class Stove {
 	 **** You must write the following method ****
 	 */
 	public void displayStove() {
+		for(Burner burner : burners) {
+			burner.display();
+		}
 
+		for (Burner burner : burners) {
+			if (burner.getTemperature() == Burner.Temperature.BLAZING) {
+				System.out.println("RED LIGHT - HOT BURNER ALERT");
+				break;
+			}
+		}
 	}
 	
 	/**
