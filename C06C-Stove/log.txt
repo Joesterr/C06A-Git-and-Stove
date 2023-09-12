@@ -1,3 +1,6 @@
+I, Jonathan Nunez Toledo, certify that I participated equitably in the creation of assignment C06A, dated 9/11/23.
+I, Calvin Tran, certify that I participated equitably in the creation of this assignment C06A, dated 9/11/23.
+
 commit a1377789640b01cf12fc6910c8e187c250566849
 Author: Jonathan-Nunez <jonathan.nunez@ibm.com>
 Date:   Mon Sep 11 22:31:34 2023 -0600
